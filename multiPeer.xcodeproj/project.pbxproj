@@ -14,6 +14,8 @@
 		9E7443DA1BDEDCFD00E0A83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7443D81BDEDCFD00E0A83D /* LaunchScreen.storyboard */; };
 		9E7443E51BDEDCFD00E0A83D /* multiPeerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7443E41BDEDCFD00E0A83D /* multiPeerTests.swift */; };
 		9E7443F01BDEDCFD00E0A83D /* multiPeerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7443EF1BDEDCFD00E0A83D /* multiPeerUITests.swift */; };
+		9E7443FE1BDEDD3700E0A83D /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E7443FD1BDEDD3700E0A83D /* MultipeerConnectivity.framework */; };
+		9E7444001BDEE02500E0A83D /* send.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7443FF1BDEE02500E0A83D /* send.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9E7443EB1BDEDCFD00E0A83D /* multiPeerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiPeerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7443EF1BDEDCFD00E0A83D /* multiPeerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiPeerUITests.swift; sourceTree = "<group>"; };
 		9E7443F11BDEDCFD00E0A83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7443FD1BDEDD3700E0A83D /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		9E7443FF1BDEE02500E0A83D /* send.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = send.png; path = ../../../Downloads/send.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7443FE1BDEDD3700E0A83D /* MultipeerConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		9E7443C31BDEDCFD00E0A83D = {
 			isa = PBXGroup;
 			children = (
+				9E7443FD1BDEDD3700E0A83D /* MultipeerConnectivity.framework */,
 				9E7443CE1BDEDCFD00E0A83D /* multiPeer */,
 				9E7443E31BDEDCFD00E0A83D /* multiPeerTests */,
 				9E7443EE1BDEDCFD00E0A83D /* multiPeerUITests */,
@@ -97,6 +103,7 @@
 		9E7443CE1BDEDCFD00E0A83D /* multiPeer */ = {
 			isa = PBXGroup;
 			children = (
+				9E7443FF1BDEE02500E0A83D /* send.png */,
 				9E7443CF1BDEDCFD00E0A83D /* AppDelegate.swift */,
 				9E7443D11BDEDCFD00E0A83D /* ViewController.swift */,
 				9E7443D31BDEDCFD00E0A83D /* Main.storyboard */,
@@ -230,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7443DA1BDEDCFD00E0A83D /* LaunchScreen.storyboard in Resources */,
+				9E7444001BDEE02500E0A83D /* send.png in Resources */,
 				9E7443D71BDEDCFD00E0A83D /* Assets.xcassets in Resources */,
 				9E7443D51BDEDCFD00E0A83D /* Main.storyboard in Resources */,
 			);
