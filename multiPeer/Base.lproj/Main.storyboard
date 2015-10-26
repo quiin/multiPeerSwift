@@ -58,7 +58,7 @@
                                     <constraint firstAttribute="height" constant="30" id="o3n-wR-VPu"/>
                                     <constraint firstAttribute="width" constant="36" id="z4a-wO-b5i"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="send.png"/>
+                                <state key="normal" title="Send"/>
                                 <connections>
                                     <action selector="send:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zkd-fQ-o4v"/>
                                 </connections>
@@ -101,7 +101,4 @@
             <point key="canvasLocation" x="885" y="624"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="send.png" width="128" height="128"/>
-    </resources>
 </document>
